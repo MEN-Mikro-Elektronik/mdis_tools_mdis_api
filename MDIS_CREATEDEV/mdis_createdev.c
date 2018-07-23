@@ -43,8 +43,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-static const char RCSid[]="$Header: /dd2/CVSR/LINUX/TOOLS/MDIS_API/MDIS_CREATEDEV/mdis_createdev.c,v 1.2 2012/05/14 11:50:32 ts Exp $";
-
 #include <stdio.h>
 #include <MEN/men_typs.h>
 #include <MEN/mdis_api.h>

@@ -63,8 +63,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
  
-static const char RCSid[]="$Id: m_mod_id.c,v 2.4 2009/09/23 13:02:45 CRuff Exp $";
-
 #include <MEN/men_typs.h>
 
 #include <stdio.h>

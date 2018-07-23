@@ -56,8 +56,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-static const char RCSid[]="$Id: m_write.c,v 1.6 2009/04/01 14:36:41 ufranke Exp $";
-
 #include <MEN/men_typs.h>
 
 #include <stdio.h>
