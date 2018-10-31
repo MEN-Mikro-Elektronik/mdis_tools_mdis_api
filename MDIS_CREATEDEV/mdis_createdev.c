@@ -15,16 +15,6 @@
  *     Required: mdis_api.l, usr_utl.l
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: mdis_createdev.c,v $
- * Revision 1.2  2012/05/14 11:50:32  ts
- * R: build warning on SC24 (SuSE 12.1) occured: rv set but not used
- * M: fixed return value oo program to return rv, not 0
- *
- * Revision 1.1  2003/02/21 13:34:55  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2003 by MEN mikro elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/
