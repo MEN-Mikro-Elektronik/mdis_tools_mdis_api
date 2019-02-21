@@ -13,34 +13,9 @@
  *     Required: mdis_api.l, usr_utl.l
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: m_getstat_blk.c,v $
- * Revision 1.6  2009/04/01 14:36:22  ufranke
- * cosmetics
- *
- * Revision 1.5  2008/09/15 14:59:14  ufranke
- * R: diab compiler warnings
- * M: cosmetics
- *
- * Revision 1.4  2006/10/18 13:45:57  cs
- * added:
- *   + include "string.h", avoid warnings
- *
- * Revision 1.3  1999/04/20 14:54:47  kp
- * declare usage() as static, main() as int
- * eliminate compiler warnings
- *
- * Revision 1.2  1998/10/15 13:56:10  see
- * check for M_close error
- * V1.1
- * exit if M_open failed
- *
- * Revision 1.1  1998/08/11 09:53:11  see
- * Added by mcvs
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998..2009 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

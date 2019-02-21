@@ -13,29 +13,9 @@
  *     Required: mdis_api.l, usr_utl.l
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: m_rev_id.c,v $
- * Revision 1.6  2009/04/01 14:36:31  ufranke
- * cosmetics
- *
- * Revision 1.5  2006/07/20 15:01:43  ufranke
- * cosmetics
- *
- * Revision 1.4  2000/03/23 17:08:44  Franke
- * cosmetics
- *
- * Revision 1.3  1999/07/21 14:43:55  Franke
- * cosmetics
- *
- * Revision 1.2  1999/04/20 15:08:25  kp
- * cosmetics
- *
- * Revision 1.1  1998/08/11 10:39:46  see
- * Added by mcvs
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998..2009 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

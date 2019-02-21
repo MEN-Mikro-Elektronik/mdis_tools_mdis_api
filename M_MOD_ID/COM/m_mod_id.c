@@ -13,40 +13,9 @@
  *     Required: mdis_api.l, usr_utl.l
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: m_mod_id.c,v $
- * Revision 2.4  2009/09/23 13:02:45  CRuff
- * R: not 64bit compatible
- * M: added type conversions to make 64bit compatible on linux system
- *
- * Revision 2.3  2009/04/01 14:36:24  ufranke
- * cosmetics
- *
- * Revision 2.2  2008/09/05 11:06:43  ufranke
- * R: diab compiler warning
- * M: cosmetics
- *
- * Revision 2.1  2006/07/20 15:01:52  ufranke
- * cosmetics
- *
- * Revision 2.0  2002/06/06 15:35:55  kp
- * Added programming mode (requires MMODPRG driver)
- *
- * Revision 1.4  2000/03/23 17:08:40  Franke
- * cosmetics
- *
- * Revision 1.3  1999/07/21 14:43:51  Franke
- * cosmetics
- *
- * Revision 1.2  1999/04/20 15:08:18  kp
- * cosmetics
- *
- * Revision 1.1  1998/08/11 10:39:48  see
- * Added by mcvs
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998..2009 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

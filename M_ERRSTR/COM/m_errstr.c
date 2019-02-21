@@ -13,32 +13,9 @@
  *     Required: usr_utl.l
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: m_errstr.c,v $
- * Revision 1.6  2009/04/01 14:36:15  ufranke
- * cosmetics
- *
- * Revision 1.5  2006/10/18 13:45:53  cs
- * added:
- *   + include "string.h", avoid warnings
- *
- * Revision 1.4  2004/07/20 13:44:30  ufranke
- * added
- *  + include usr_oss.h for VxWorks main() function replacement
- *
- * Revision 1.3  2004/03/19 15:10:18  ub
- * added #include <stdlib.h> to remove compiler warning
- *
- * Revision 1.2  1999/04/20 14:54:36  kp
- * declare usage() as static, main() as int
- * eliminate compiler warnings
- *
- * Revision 1.1  1998/08/11 09:53:04  see
- * Added by mcvs
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998..2009 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

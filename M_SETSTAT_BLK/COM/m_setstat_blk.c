@@ -13,46 +13,9 @@
  *     Required: mdis_api.l, usr_utl.l
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: m_setstat_blk.c,v $
- * Revision 1.9  2010/09/02 16:18:02  UFranke
- * R: compiler warning under VxWorks GNU
- * M: cosmetics
- *
- * Revision 1.8  2009/09/23 13:02:48  CRuff
- * R: not 64bit compatible
- * M: added type conversions to make 64bit compatible on linux system
- *
- * Revision 1.7  2009/08/05 08:52:36  CRuff
- * R: porting to MDIS5 (64bit)
- * M: adapt printf() format to be able to print 64bit addresses
- *
- * Revision 1.6  2009/04/01 14:36:38  ufranke
- * cosmetics
- *
- * Revision 1.5  2008/09/15 15:03:49  ufranke
- * R: diab compiler warnings
- * M: cosmetics
- *
- * Revision 1.4  2006/10/18 13:46:08  cs
- * added:
- *   + include "string.h", avoid warnings
- *
- * Revision 1.3  1999/04/20 14:55:04  kp
- * declare usage() as static, main() as int
- * eliminate compiler warnings
- *
- * Revision 1.2  1998/10/15 13:56:33  see
- * check for M_close error
- * V1.1
- * exit if M_open failed
- *
- * Revision 1.1  1998/08/11 09:53:21  see
- * Added by mcvs
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998..2010 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
