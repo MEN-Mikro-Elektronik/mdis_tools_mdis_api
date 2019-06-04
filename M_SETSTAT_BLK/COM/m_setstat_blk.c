@@ -5,8 +5,6 @@
  ****************************************************************************
  *
  *       Author: see
- *        $Date: 2010/09/02 16:18:02 $
- *    $Revision: 1.9 $
  *
  *  Description: Testing M_setstat() (blockwise)
  *
@@ -32,7 +30,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-static const char RCSid[]="$Id: m_setstat_blk.c,v 1.9 2010/09/02 16:18:02 UFranke Exp $";
 
 #include <MEN/men_typs.h>
 
@@ -43,6 +40,8 @@ static const char RCSid[]="$Id: m_setstat_blk.c,v 1.9 2010/09/02 16:18:02 UFrank
 #include <MEN/mdis_api.h>
 #include <MEN/usr_oss.h>
 #include <MEN/usr_utl.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   DEFINES                             |
@@ -66,7 +65,7 @@ static void usage(void)
 	printf("    code         status code (hex)     [none]\n");
 	printf("    byte0..n     block data bytes (hex)  [none]\n");
 	printf("\n");
-	printf("(c) 1998..2010 by MEN mikro elektronik GmbH\n %s\n\n", RCSid);
+	printf("Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString);
 }
 
 /********************************* main *************************************

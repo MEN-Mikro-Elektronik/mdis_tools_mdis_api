@@ -5,8 +5,6 @@
  ****************************************************************************
  *
  *       Author: see
- *        $Date: 2009/04/01 14:36:34 $
- *    $Revision: 1.7 $
  *
  *  Description: Testing M_setblock()
  *
@@ -32,7 +30,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-static const char RCSid[]="$Id: m_setblock.c,v 1.7 2009/04/01 14:36:34 ufranke Exp $";
 
 #include <MEN/men_typs.h>
 
@@ -43,6 +40,8 @@ static const char RCSid[]="$Id: m_setblock.c,v 1.7 2009/04/01 14:36:34 ufranke E
 #include <MEN/mdis_api.h>
 #include <MEN/usr_oss.h>
 #include <MEN/usr_utl.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   DEFINES                             |
@@ -72,7 +71,7 @@ static void usage(void)
 	printf("                 3 = M_BUF_RINGBUF_OVERWR\n");
 	printf("    -t=<msec>    block write timeout [msec] (0=none)  [none]\n");
 	printf("\n");
-	printf("(c) 1998..2008 by MEN mikro elektronik GmbH\n %s\n\n",RCSid);
+	printf("Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n",IdentString);
 }
 
 /********************************* main *************************************

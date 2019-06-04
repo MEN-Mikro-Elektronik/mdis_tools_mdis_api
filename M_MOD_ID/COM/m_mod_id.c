@@ -5,8 +5,6 @@
  ****************************************************************************
  *  
  *       Author: see
- *        $Date: 2009/09/23 13:02:45 $
- *    $Revision: 2.4 $
  *
  *  Description: Print module id
  *                      
@@ -42,10 +40,11 @@
 #include <MEN/usr_oss.h>
 #include <MEN/usr_utl.h>
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /*--------------------------------------+
 |   DEFINES                             |
 +--------------------------------------*/
-#define REV "V2.0"      /* program revision */
 
 /********************************* usage ************************************
  *
@@ -65,7 +64,7 @@ static void usage(void)
 	printf("    device       device name           [none]\n");
 	printf("    progspec     programming specification file\n");
 	printf("\n");
-	printf("(c) 1998-2002 by MEN mikro elektronik GmbH, %s\n\n",REV);
+	printf("Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n",IdentString);
 }
 
 /********************************* main *************************************

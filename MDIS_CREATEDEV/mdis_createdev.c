@@ -5,8 +5,6 @@
  ****************************************************************************
  *
  *       Author: kp
- *        $Date: 2012/05/14 11:50:32 $
- *    $Revision: 1.2 $
  *
  *  Description: Linux native tool to instanciate MDIS/BBIS devices
  *
@@ -40,10 +38,11 @@
 #include <MEN/usr_utl.h>
 #include <MEN/mdis_mk.h>
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /*--------------------------------------+
 |   DEFINES                             |
 +--------------------------------------*/
-#define REV "V1.1"      /* program revision */
 
 /********************************* usage ************************************
  *
@@ -63,7 +62,7 @@ static void usage(void)
 	printf("    -d           delete instead of create\n");
 	printf("    -b           create/remove BBIS device (ignores -r)\n");
 	printf("\n");
-	printf("(c) 2003 by MEN mikro elektronik GmbH, %s\n\n",REV);
+	printf("Copyright (c) 2003-2019, MEN Mikro Elektronik GmbH\n%s\n\n",IdentString);
 }
 
 /********************************* main *************************************

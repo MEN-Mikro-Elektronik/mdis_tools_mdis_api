@@ -5,8 +5,6 @@
  ****************************************************************************
  *
  *       Author: see
- *        $Date: 2009/04/01 14:36:20 $
- *    $Revision: 1.6 $
  *
  *  Description: Testing M_getstat
  *
@@ -32,7 +30,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-static const char RCSid[]="$Id: m_getstat.c,v 1.6 2009/04/01 14:36:20 ufranke Exp $";
 
 #include <MEN/men_typs.h>
 
@@ -42,6 +39,8 @@ static const char RCSid[]="$Id: m_getstat.c,v 1.6 2009/04/01 14:36:20 ufranke Ex
 #include <MEN/mdis_api.h>
 #include <MEN/usr_oss.h>
 #include <MEN/usr_utl.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   DEFINES                             |
@@ -64,7 +63,7 @@ static void usage(void)
 	printf("    device       device name           [none]\n");
 	printf("    code         status code (hex)     [none]\n");
 	printf("\n");
-	printf("(c) 1998..2008 by MEN mikro elektronik GmbH\n %s\n\n",RCSid);
+	printf("Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n",IdentString);
 }
 
 /********************************* main *************************************

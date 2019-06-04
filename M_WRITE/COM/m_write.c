@@ -5,8 +5,6 @@
  ****************************************************************************
  *
  *       Author: see
- *        $Date: 2009/04/01 14:36:41 $
- *    $Revision: 1.6 $
  *
  *  Description: Testing M_write()
  *
@@ -41,10 +39,11 @@
 #include <MEN/usr_oss.h>
 #include <MEN/usr_utl.h>
 
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
+
 /*--------------------------------------+
 |   DEFINES                             |
 +--------------------------------------*/
-#define REV "V1.1"      /* program revision */
 
 /********************************* usage ************************************
  *
@@ -63,7 +62,7 @@ static void usage(void)
 	printf("    device       device name           [none]\n");
 	printf("    value        value to write (hex)  [none]\n");
 	printf("\n");
-	printf("(c) 1998 by MEN mikro elektronik GmbH, %s\n\n",REV);
+	printf("Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH\n%s\n",IdentString);
 }
 
 /********************************* main *************************************
