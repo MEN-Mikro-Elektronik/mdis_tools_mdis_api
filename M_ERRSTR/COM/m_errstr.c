@@ -13,7 +13,7 @@
  *
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
+ * Copyright 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
@@ -63,7 +63,7 @@ static void usage(void)
 	printf("    errcode     start error code (hex)        [none]\n");
 	printf("    -n=<n>      nr of error codes             [1]\n");
 	printf("\n");
-	printf("Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n",IdentString);
+	printf("Copyright 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n",IdentString);
 }
 
 /********************************* main *************************************

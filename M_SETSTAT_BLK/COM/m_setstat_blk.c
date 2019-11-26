@@ -13,7 +13,7 @@
  *
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
+ * Copyright 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
@@ -65,7 +65,7 @@ static void usage(void)
 	printf("    code         status code (hex)     [none]\n");
 	printf("    byte0..n     block data bytes (hex)  [none]\n");
 	printf("\n");
-	printf("Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString);
+	printf("Copyright 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n", IdentString);
 }
 
 /********************************* main *************************************

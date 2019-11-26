@@ -13,7 +13,7 @@
  *
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
+ * Copyright 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
@@ -64,7 +64,7 @@ static void usage(void)
 	printf("    device       device name           [none]\n");
 	printf("    progspec     programming specification file\n");
 	printf("\n");
-	printf("Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n",IdentString);
+	printf("Copyright 1998-2019, MEN Mikro Elektronik GmbH\n%s\n\n",IdentString);
 }
 
 /********************************* main *************************************
